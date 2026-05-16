@@ -1,13 +1,16 @@
 {
   "name": "@azversan/dummy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An open-source NestJS module boilerplate maintained by Azversan",
   "author": "Agung Dirgantara <agungmasda29@gmail.com>",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "build:watch": "tsc -p tsconfig.build.json --watch",
@@ -52,13 +55,20 @@
     "typescript-eslint": "^8.20.0"
   },
   "jest": {
-    "moduleFileExtensions": ["js", "json", "ts"],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
     "rootDir": "src",
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
-    "collectCoverageFrom": ["**/*.(t|j)s", "!**/index.ts"],
+    "collectCoverageFrom": [
+      "**/*.(t|j)s",
+      "!**/index.ts"
+    ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   }

@@ -1,6 +1,6 @@
 {
   "name": "@azversan/dummy",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "An open-source NestJS module boilerplate maintained by Azversan",
   "author": "Agung Dirgantara <agungmasda29@gmail.com>",
   "license": "MIT",
